@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC070422A26A801009E802B /* beer_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC070412A26A801009E802B /* beer_calculatorApp.swift */; };
+		7BC070442A26A801009E802B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC070432A26A801009E802B /* ContentView.swift */; };
+		7BC070462A26A803009E802B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC070452A26A803009E802B /* Assets.xcassets */; };
+		7BC0704A2A26A803009E802B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC070492A26A803009E802B /* Preview Assets.xcassets */; };
+		7BC070542A26A803009E802B /* beer_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC070532A26A803009E802B /* beer_calculatorTests.swift */; };
+		7BC0705E2A26A803009E802B /* beer_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0705D2A26A803009E802B /* beer_calculatorUITests.swift */; };
+		7BC070602A26A803009E802B /* beer_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0705F2A26A803009E802B /* beer_calculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BC070502A26A803009E802B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC070362A26A801009E802B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC0703D2A26A801009E802B;
+			remoteInfo = "beer-calculator";
+		};
+		7BC0705A2A26A803009E802B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC070362A26A801009E802B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC0703D2A26A801009E802B;
+			remoteInfo = "beer-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BC0703E2A26A801009E802B /* beer-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beer-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC070412A26A801009E802B /* beer_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beer_calculatorApp.swift; sourceTree = "<group>"; };
+		7BC070432A26A801009E802B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BC070452A26A803009E802B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC070472A26A803009E802B /* beer_calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beer_calculator.entitlements; sourceTree = "<group>"; };
+		7BC070492A26A803009E802B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BC0704F2A26A803009E802B /* beer-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beer-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC070532A26A803009E802B /* beer_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beer_calculatorTests.swift; sourceTree = "<group>"; };
+		7BC070592A26A803009E802B /* beer-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beer-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC0705D2A26A803009E802B /* beer_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beer_calculatorUITests.swift; sourceTree = "<group>"; };
+		7BC0705F2A26A803009E802B /* beer_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beer_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC0703B2A26A801009E802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC0704C2A26A803009E802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC070562A26A803009E802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC070352A26A801009E802B = {
+			isa = PBXGroup;
+			children = (
+				7BC070402A26A801009E802B /* beer-calculator */,
+				7BC070522A26A803009E802B /* beer-calculatorTests */,
+				7BC0705C2A26A803009E802B /* beer-calculatorUITests */,
+				7BC0703F2A26A801009E802B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC0703F2A26A801009E802B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC0703E2A26A801009E802B /* beer-calculator.app */,
+				7BC0704F2A26A803009E802B /* beer-calculatorTests.xctest */,
+				7BC070592A26A803009E802B /* beer-calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC070402A26A801009E802B /* beer-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7BC070412A26A801009E802B /* beer_calculatorApp.swift */,
+				7BC070432A26A801009E802B /* ContentView.swift */,
+				7BC070452A26A803009E802B /* Assets.xcassets */,
+				7BC070472A26A803009E802B /* beer_calculator.entitlements */,
+				7BC070482A26A803009E802B /* Preview Content */,
+			);
+			path = "beer-calculator";
+			sourceTree = "<group>";
+		};
+		7BC070482A26A803009E802B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BC070492A26A803009E802B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BC070522A26A803009E802B /* beer-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC070532A26A803009E802B /* beer_calculatorTests.swift */,
+			);
+			path = "beer-calculatorTests";
+			sourceTree = "<group>";
+		};
+		7BC0705C2A26A803009E802B /* beer-calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC0705D2A26A803009E802B /* beer_calculatorUITests.swift */,
+				7BC0705F2A26A803009E802B /* beer_calculatorUITestsLaunchTests.swift */,
+			);
+			path = "beer-calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC0703D2A26A801009E802B /* beer-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC070632A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculator" */;
+			buildPhases = (
+				7BC0703A2A26A801009E802B /* Sources */,
+				7BC0703B2A26A801009E802B /* Frameworks */,
+				7BC0703C2A26A801009E802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beer-calculator";
+			productName = "beer-calculator";
+			productReference = 7BC0703E2A26A801009E802B /* beer-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BC0704E2A26A803009E802B /* beer-calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC070662A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculatorTests" */;
+			buildPhases = (
+				7BC0704B2A26A803009E802B /* Sources */,
+				7BC0704C2A26A803009E802B /* Frameworks */,
+				7BC0704D2A26A803009E802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC070512A26A803009E802B /* PBXTargetDependency */,
+			);
+			name = "beer-calculatorTests";
+			productName = "beer-calculatorTests";
+			productReference = 7BC0704F2A26A803009E802B /* beer-calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BC070582A26A803009E802B /* beer-calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC070692A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculatorUITests" */;
+			buildPhases = (
+				7BC070552A26A803009E802B /* Sources */,
+				7BC070562A26A803009E802B /* Frameworks */,
+				7BC070572A26A803009E802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC0705B2A26A803009E802B /* PBXTargetDependency */,
+			);
+			name = "beer-calculatorUITests";
+			productName = "beer-calculatorUITests";
+			productReference = 7BC070592A26A803009E802B /* beer-calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC070362A26A801009E802B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7BC0703D2A26A801009E802B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7BC0704E2A26A803009E802B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7BC0703D2A26A801009E802B;
+					};
+					7BC070582A26A803009E802B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7BC0703D2A26A801009E802B;
+					};
+				};
+			};
+			buildConfigurationList = 7BC070392A26A801009E802B /* Build configuration list for PBXProject "beer-calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BC070352A26A801009E802B;
+			productRefGroup = 7BC0703F2A26A801009E802B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC0703D2A26A801009E802B /* beer-calculator */,
+				7BC0704E2A26A803009E802B /* beer-calculatorTests */,
+				7BC070582A26A803009E802B /* beer-calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC0703C2A26A801009E802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC0704A2A26A803009E802B /* Preview Assets.xcassets in Resources */,
+				7BC070462A26A803009E802B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC0704D2A26A803009E802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC070572A26A803009E802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC0703A2A26A801009E802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC070442A26A801009E802B /* ContentView.swift in Sources */,
+				7BC070422A26A801009E802B /* beer_calculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC0704B2A26A803009E802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC070542A26A803009E802B /* beer_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC070552A26A803009E802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC070602A26A803009E802B /* beer_calculatorUITestsLaunchTests.swift in Sources */,
+				7BC0705E2A26A803009E802B /* beer_calculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BC070512A26A803009E802B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC0703D2A26A801009E802B /* beer-calculator */;
+			targetProxy = 7BC070502A26A803009E802B /* PBXContainerItemProxy */;
+		};
+		7BC0705B2A26A803009E802B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC0703D2A26A801009E802B /* beer-calculator */;
+			targetProxy = 7BC0705A2A26A803009E802B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BC070612A26A803009E802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BC070622A26A803009E802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7BC070642A26A803009E802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "beer-calculator/beer_calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"beer-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BC070652A26A803009E802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "beer-calculator/beer_calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"beer-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BC070672A26A803009E802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beer-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/beer-calculator";
+			};
+			name = Debug;
+		};
+		7BC070682A26A803009E802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beer-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/beer-calculator";
+			};
+			name = Release;
+		};
+		7BC0706A2A26A803009E802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beer-calculator";
+			};
+			name = Debug;
+		};
+		7BC0706B2A26A803009E802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWD72D5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "darico-company.beer-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "beer-calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC070392A26A801009E802B /* Build configuration list for PBXProject "beer-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC070612A26A803009E802B /* Debug */,
+				7BC070622A26A803009E802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC070632A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC070642A26A803009E802B /* Debug */,
+				7BC070652A26A803009E802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC070662A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC070672A26A803009E802B /* Debug */,
+				7BC070682A26A803009E802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC070692A26A803009E802B /* Build configuration list for PBXNativeTarget "beer-calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC0706A2A26A803009E802B /* Debug */,
+				7BC0706B2A26A803009E802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC070362A26A801009E802B /* Project object */;
+}
